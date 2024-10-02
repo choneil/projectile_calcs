@@ -16,8 +16,7 @@ def sol_t(vel,grav,dist,ht):
     g=grav
     y=ht
     x=dist
-    t = m.sqrt(2*v**2-2*g*y-(2*m.sqrt(v*v*v*v-2*g*v**2-g*g*x*x)))/g
-    #t=((m.sqrt((2*v*v)-(2*g*y)-(2*(m.sqrt((v*v*v*v)-(2*g*v*v)-(g*g*x*x)))))/g))
+    t = m.sqrt(2*v**2-2*g*y-(2*m.sqrt(v*v*v*v-2*g*v**2-g*g*x*x)))/
     return(t)
 
 #return innermost square root term of time solution
